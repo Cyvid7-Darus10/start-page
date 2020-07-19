@@ -1,0 +1,15 @@
+html {
+  background: radial-gradient(ellipse at center, #e6cfcf 0%, black 100%);
+}
+
+svg polygon {
+  -webkit-transition: 2.5s all;
+  transition: 2.5s all;
+}
+
+.background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
