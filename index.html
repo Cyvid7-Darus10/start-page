@@ -14,72 +14,88 @@
     <link rel="stylesheet" href="css/fonts.css" />
     <!-- Icons -->
     <link rel="stylesheet" href="css/material-icons.css" />
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body id="StartPage">
-    <main class="StartPage">
-      <section class="StartPage_infoContainer">
-        <div class="StartPage_info">
-          <h1 class="StartPage_time" id="time"></span></h1>
-          <h4 class="StartPage_date" id="date"></span></h4>
-        </div>
-        <nav class="StartPage_nav">
-          <div class="StartPage_nav_group">
-            <p class="StartPage_nav_group_title">Leisure</p>
-            <a class="StartPage_nav_group_link" href="http://www.facebook.com"
-              >Facebook</a
-            >
-            <a class="StartPage_nav_group_link" href="http://www.twitter.com"
-              >Twitter</a
-            >
-            <a class="StartPage_nav_group_link" href="http://www.youtube.com"
-              >Youtube</a
-            >
-            <a class="StartPage_nav_group_link" href="http://www.reddit.com"
-              >Reddit</a
-            >
-            <a class="StartPage_nav_group_link" href="http://www.netflix.com"
-              >Netflix</a
-            >
-          </div>
-          <div class="StartPage_nav_group">
-              <p class="StartPage_nav_group_title">Productivity</p>
-              <a class="StartPage_nav_group_link" href="http://mail.google.com"
-                >Gmail</a
-              >
-              <a class="StartPage_nav_group_link" href="http://drive.google.com"
-                >Drive</a
-              >
-              <a class="StartPage_nav_group_link" href="http://docs.google.com"
-                >Docs</a
-              >
-          </div>
-          <div class="StartPage_nav_group">
-            <p class="StartPage_nav_group_title">School</p>
-            <a
-              class="StartPage_nav_group_link"
-              href="http://vle.upcebu.edu.ph"
-              >VLE</a
-            >
-            <a class="StartPage_nav_group_link" href="http://sais.up.edu.ph"
-              >SAIS</a
-            >
-          </div>
-        </nav>
-      </section>
-      <section class="StartPage_notesContainer">
-        <form class="StartPage_form">
-            <textarea placeholder="Add a task" id="input" class="StartPage_textArea"></textarea>
-            <button type="button" id="addButton" class="StartPage_button">Add</button>
-        </form>
-        <h3 class="StartPage_list_title" id="taskTitle"></h3>
-        <ul id="taskList" class="StartPage_list">
-        </ul>
-      </section>
-    </main>
+        <main class="StartPage">
+          <section class="StartPage_infoContainer">
+            <div class="StartPage_info">
+              <h1 class="StartPage_time" id="time"></span></h1>
+              <h4 class="StartPage_date" id="date"></span></h4>
+            </div>
+            <nav class="StartPage_nav">
+              <div class="StartPage_nav_group">
+                <p class="StartPage_nav_group_title">Work</p>
+                <a class="StartPage_nav_group_link" href="http://www.linkedin.com"
+                  >Linkedin</a
+                >
+                <a class="StartPage_nav_group_link" href="http://www.github.com"
+                  >Github</a
+                >
+              </div>
+              <div class="StartPage_nav_group">
+                <p class="StartPage_nav_group_title">Leisure</p>
+                <a class="StartPage_nav_group_link" href="http://www.facebook.com"
+                  >Facebook</a
+                >
+                <a class="StartPage_nav_group_link" href="http://www.twitter.com"
+                  >Twitter</a
+                >
+                <a class="StartPage_nav_group_link" href="http://www.youtube.com"
+                  >Youtube</a
+                >
+                <a class="StartPage_nav_group_link" href="http://www.reddit.com"
+                  >Reddit</a
+                >
+                <a class="StartPage_nav_group_link" href="http://www.netflix.com"
+                  >Netflix</a
+                >
+              </div>
+              <div class="StartPage_nav_group">
+                  <p class="StartPage_nav_group_title">Productivity</p>
+                  <a class="StartPage_nav_group_link" href="http://mail.google.com"
+                    >Gmail</a
+                  >
+                  <a class="StartPage_nav_group_link" href="http://drive.google.com"
+                    >Drive</a
+                  >
+                  <a class="StartPage_nav_group_link" href="http://docs.google.com"
+                    >Docs</a
+                  >
+              </div>
+              <div class="StartPage_nav_group">
+                <p class="StartPage_nav_group_title">School</p>
+                <a
+                  class="StartPage_nav_group_link"
+                  href="http://vle.upcebu.edu.ph"
+                  >VLE</a
+                >
+                <a class="StartPage_nav_group_link" href="http://sais.up.edu.ph"
+                  >SAIS</a
+                >
+              </div>
+            </nav>
+          </section>
+          <section class="StartPage_notesContainer">
+            <form class="StartPage_form">
+                <textarea placeholder="Add a task" id="input" class="StartPage_textArea"></textarea>
+                <button type="button" id="addButton" class="StartPage_button">Add</button>
+            </form>
+            <h3 class="StartPage_list_title" id="taskTitle"></h3>
+            <ul id="taskList" class="StartPage_list">
+            </ul>
+          </section>
+        </main>
+
+      <div class="background">
+        <div id="bg"></div>
+      </div>
+
 
     <!-- JavaScript -->
     <script src="js/time.js"></script>
     <script src="js/notes.js"></script>
+    <script  src="js/script.js"></script>
   </body>
 </html>
