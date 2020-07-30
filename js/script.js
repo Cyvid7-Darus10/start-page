@@ -6,12 +6,6 @@ var unitWidth;
 var unitHeight;
 var points;
 
-function docolor(){
-    var colorinput = document.getElementById("clr");
-    var color = colorinput.value;
-    document.body.style.background = color; 
-}
-
 function onLoad()
 {
     var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
