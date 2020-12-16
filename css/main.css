@@ -3,6 +3,11 @@ svg polygon {
   transition: 2.5s all;
 }
 
+a {
+  border: dotted red 2px;
+  padding: 2px;
+}
+
 .background{
   position: fixed;
   top: 0;
